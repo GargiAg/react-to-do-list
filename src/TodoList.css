@@ -1,0 +1,82 @@
+/* TodoList.css */
+
+.TodoList {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ede8f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 129px; */
+  }
+  
+  .TodoList h2 {
+    text-align: center;
+    font-size: 2.3vw;
+    margin-bottom: 20px;
+    color: #7091E6;
+  }
+  
+  .TodoList-controls {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .last-two-buttons{
+    margin-top: 10px;
+  } */
+  
+  .TodoList-controls button {
+    margin-right: 2vw;
+    padding: 1vw 1vw;
+    font-size: 1.8vw;
+    background-color: #ADBBDA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 15vw;
+    height: 8vw;
+  }
+  
+  .TodoList-controls button:hover {
+    background-color: #8697c4;
+  }
+  
+  /* .TodoForm {
+    margin-bottom: 2vw;
+    background-color: red;
+  } */
+  
+  .TodoList-items {
+    list-style-type: none;
+    /* margin-top: 2vw; */
+    padding: 0;
+  }
+  
+  /* .TodoList-items li {
+    background-color: white;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .TodoList-items li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .TodoList-items li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .TodoList-items li button{
+    margin-right: 2vw;
+    text-align: end;
+  } */

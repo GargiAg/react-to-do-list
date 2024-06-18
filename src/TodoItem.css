@@ -1,0 +1,46 @@
+/* TodoList.css or TodoItem.css */
+
+.todoitem {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 2vw;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-top: 12vw; */
+    margin-bottom: 8px;
+    font-size: 1.8vw;
+  }
+  
+  .todoitem.completed {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .task-text {
+    flex: 1; /* Take up remaining space */
+    margin-right: 16px; /* Space between text and controls */
+    font-size: 1.8vw;
+  }
+  
+  .todoitem button {
+    background-color: #3d52a0;
+    color: #ffffff;
+    border: none;
+    padding: 1vw 1.2vw;
+    font-size: 1.8vw;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  input[type="checkbox"] {
+    height: 1vw;
+    width: 1vw;
+    margin-left: 16px; /* Space between checkbox and text */
+  }
+  

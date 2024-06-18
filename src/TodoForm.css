@@ -1,0 +1,38 @@
+/* TodoForm.css */
+
+.todoform {
+    display: flex;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  
+  .todoform input {
+    flex: 1;
+    max-width: 100%;
+    padding: 1vw;
+    font-size: 1.8vw;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    
+  }
+  
+  .todoform button {
+    padding: 1vw 2vw;
+    font-size: 1.8vw;
+    background-color: #7091e6;
+    color: white;
+    border: 1px solid #7091e6;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .todoform button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
