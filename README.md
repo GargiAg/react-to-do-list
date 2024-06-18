@@ -25,45 +25,48 @@ Follow these steps to get the application up and running on your local machine.
 ```sh
 git clone https://github.com/your-username/todo-list-app.git
 cd todo-list-app
+```
 
 ### 2. Install Dependencies
+```
 Using npm:
 npm install
 
 Or using Yarn:
 yarn install
+```
 
 ### 3. Run the Application
 To start the development server, use the following command:
-
+```
 Using npm:
 npm start
 
 Or using Yarn:
 yarn start
-
+```
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 ### 4. Running Tests
 To run the test suite, use the following command:
-
+```
 Using npm:
 npm test
 
 Or using Yarn:
 yarn test
-
+```
 This will launch the test runner in interactive watch mode. See the section about running tests for more information.
 
 ### 5. Building for Production
 To build the app for production, use the following command:
-
+```
 Using npm:
 npm run build
 
 Or using Yarn:
 yarn build
-
+```
 This will create a build folder with the production build of your app. See the section about deployment for more information.
 
 ### Brief Description
